@@ -23,9 +23,9 @@ const AddHotel = () => {
     const handleFacilityChange = (e) =>{
         const { value, checked } = e.target;
         if (checked) {
-            sethotelfac([...hotelfac, value]);
+            sethotelfac(prev => [...prev, value]);
         } else {
-            sethotelfac(hotelfac.filter(option => option !== value));
+            sethotelfac(prev => prev.filter(option => option !== value));
         }
         setValidationError(false);
     }
