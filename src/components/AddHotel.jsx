@@ -20,13 +20,16 @@ const AddHotel = () => {
     const [showModal, setShowModal] = useState(false);
 
     //facility validation
+    const hotelfacc = [];
     const handleFacilityChange = (e) =>{
         const { value, checked } = e.target;
         if (checked) {
-            sethotelfac(prev => [...prev, value]);
-        } else {
-            sethotelfac(prev => prev.filter(option => option !== value));
-        }
+            //sethotelfac(prev => [...prev, value]);
+            hotelfacc.push(value);
+        } 
+        // else {
+        //     sethotelfac(prev => prev.filter(option => option !== value));
+        // }
         setValidationError(false);
     }
 
@@ -53,7 +56,7 @@ const AddHotel = () => {
                 desc : hoteldesc,
                 price : hotelprice,
                 type : selectedType,
-                facilities : hotelfac,
+                facilities : hotelfacc,
                 adults : hoteladul,
                 child : hotelchild,
                 numRooms : hotelnumRooms,
