@@ -203,7 +203,7 @@ const AddHotel = () => {
                 <input 
                     type='checkbox'
                     value={fac} 
-                    checked={hotelfac.includes(fac)}
+                    checked={hotelfacc.includes(fac)}
                     onChange={handleFacilityChange}
                     className='mr-2'/>
                 {fac}
