@@ -2,10 +2,13 @@ import React, { useContext, useState } from 'react';
 import DataContext from '../context/DataContext';
 import AlertIdModal from './AlertIdModal';
 import api from '../api/axiosConfig';
+import { useQuery } from 'react-query';
+import { fetchUserData } from '../apiclient';
 
 const AddHotel = () => {
+    const {data} = useQuery('fetchUserData',fetchUserData);
 
-    const {hotelphone,sethotelphone,hotelnumRooms,sethotelnumRooms,imageFiles,setImageFiles,setisHotelAdded,loggedinUser,hotelname,sethotelname,hotelcity,sethotelcity,hotelcountry,sethotelcountry,hoteldesc,sethoteldesc,hotelprice,sethotelprice,selectedType,setSelectedType,hotelfac,sethotelfac,hoteladul,sethoteladul,hotelchild,sethotelchild} = useContext(DataContext);
+    const {hotelphone,sethotelphone,hotelnumRooms,sethotelnumRooms,imageFiles,setImageFiles,setisHotelAdded,hotelname,sethotelname,hotelcity,sethotelcity,hotelcountry,sethotelcountry,hoteldesc,sethoteldesc,hotelprice,sethotelprice,selectedType,setSelectedType,hotelfac,sethotelfac,hoteladul,sethoteladul,hotelchild,sethotelchild} = useContext(DataContext);
 
     const hotelTypes = ["Budget","Boutique","Luxury","Ski Resort","Business","Romantic","Family","Hiking Resort","Cabin","Beach Resort","Golf Resort","Motel","All Inclusive","Pet Friendly","Self Catering"];
 
@@ -43,7 +46,7 @@ const AddHotel = () => {
         }
         else{
             const newHotel = {
-                userId: loggedinUser?.userId,
+                userId: data?.userId,
                 name : hotelname,
                 city : hotelcity,
                 country : hotelcountry,
@@ -67,7 +70,7 @@ const AddHotel = () => {
                 
             }
             try {
-                loggedinUser &&  await api.post(`/hotelRoute`,formdata,{
+                await api.post(`/hotelRoute`,formdata,{
                     headers:{
                         'Content-Type':'multipart/form-data'
                 }
