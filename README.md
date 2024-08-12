@@ -12,7 +12,7 @@
 - MERN
 - Tailwind CSS
 
-# Sign In and Sign Up Page (Flip)
+## Sign In and Sign Up Page (Flip)
 
 <div style="display:flex; justify-content: center;">
 <img width="400px" alt="Screenshot 2024-08-12 at 10 53 53 PM" src="https://github.com/user-attachments/assets/148c023f-c3e2-4b51-9944-ec6f3eb59097">
