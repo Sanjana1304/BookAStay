@@ -14,9 +14,9 @@
 
 # Sign In and Sign Up Page (Flip)
 
-<div style="display:flex; justify-content:space-between;">
-<img width="500px" alt="Screenshot 2024-08-12 at 10 53 53 PM" src="https://github.com/user-attachments/assets/148c023f-c3e2-4b51-9944-ec6f3eb59097">
-<img width="500px" alt="Screenshot 2024-08-12 at 10 53 59 PM" src="https://github.com/user-attachments/assets/a790a96c-c16b-47b8-9b81-36677633d69f">
+<div style="display:flex; justify-content: center;">
+<img width="400px" alt="Screenshot 2024-08-12 at 10 53 53 PM" src="https://github.com/user-attachments/assets/148c023f-c3e2-4b51-9944-ec6f3eb59097">
+<img width="400px" alt="Screenshot 2024-08-12 at 10 53 59 PM" src="https://github.com/user-attachments/assets/a790a96c-c16b-47b8-9b81-36677633d69f">
 </div>
 
 
