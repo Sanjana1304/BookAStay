@@ -11,6 +11,10 @@
 <img width="904" alt="Screenshot 2024-08-12 at 10 53 53 PM" src="https://github.com/user-attachments/assets/148c023f-c3e2-4b51-9944-ec6f3eb59097">
 <img width="904" alt="Screenshot 2024-08-12 at 10 53 59 PM" src="https://github.com/user-attachments/assets/a790a96c-c16b-47b8-9b81-36677633d69f">
 
+# Tech Stack Used
+- MERN
+- Tailwind CSS
+
 
 ## USER PAGE:
 
@@ -38,7 +42,8 @@
 
 <img width="1436" alt="Screenshot 2024-08-12 at 10 55 59 PM" src="https://github.com/user-attachments/assets/e0ea6e60-36cf-407c-a7f3-f4d851575b66">
 
-
+## Built On
+- Visual Studio Code
 
 
 
