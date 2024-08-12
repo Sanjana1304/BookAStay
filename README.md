@@ -11,13 +11,16 @@
 # Tech Stack Used
 - MERN
 - Tailwind CSS
+
+# Sign In and Sign Up Page (Flip)
+
 <div style="display:flex;">
-<img width="400" alt="Screenshot 2024-08-12 at 10 53 53 PM" src="https://github.com/user-attachments/assets/148c023f-c3e2-4b51-9944-ec6f3eb59097">
-<img width="400" alt="Screenshot 2024-08-12 at 10 53 59 PM" src="https://github.com/user-attachments/assets/a790a96c-c16b-47b8-9b81-36677633d69f">
+<img width="450" alt="Screenshot 2024-08-12 at 10 53 53 PM" src="https://github.com/user-attachments/assets/148c023f-c3e2-4b51-9944-ec6f3eb59097">
+<img width="450" alt="Screenshot 2024-08-12 at 10 53 59 PM" src="https://github.com/user-attachments/assets/a790a96c-c16b-47b8-9b81-36677633d69f">
 </div>
 
 
-## USER PAGE:
+## USER PAGE
 
 <img width="1440" alt="Screenshot 2024-08-12 at 10 48 50 PM" src="https://github.com/user-attachments/assets/55e2a7f3-db8c-4b3e-96ee-b298afd24b97">
 
@@ -29,9 +32,9 @@
 <img width="1368" alt="Screenshot 2024-08-12 at 10 53 12 PM" src="https://github.com/user-attachments/assets/92abb48b-4e9d-4f90-bf73-253414209a18">
 
 
-## HOTEL HOST PAGE:
+## HOTEL HOST PAGE
 
-- ### DASHBOARD:
+- ### DASHBOARD
 
 <img width="1436" alt="Screenshot 2024-08-12 at 10 55 33 PM" src="https://github.com/user-attachments/assets/cd79de94-e841-4dbe-95ac-087e1f674621">
 
