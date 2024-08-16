@@ -1,0 +1,44 @@
+import React from 'react'
+import { useNavigate } from 'react-router-dom';
+
+const HeaderStart = ({openModal}) => {
+    const navig = useNavigate();
+    const openSignIn = () =>{
+        navig('/auth');
+    }
+  return (
+    <div>
+
+        <div className="container mx-auto mt-7 flex justify-between mb-7">
+            <span className='text-3xl mt-1 text-pink-800 font-bold tracking-tight'>
+                BookAStay
+            </span>
+
+            <nav>
+                <ul className="flex space-x-8">
+                    <li className='mt-2'>
+                        <a href="#" className="text-2xl  text-pink-800 hover:text-pink-400">Features</a>
+                    </li>
+                    <li className='mt-2'>
+                    <a href="#" className="text-2xl text-pink-800 hover:text-pink-400">About</a>
+                    </li>
+                    <li className='mt-2'>
+                        <a href="#" className="text-2xl text-pink-800   hover:text-pink-400">Services</a>
+                    </li>
+
+                    <li>
+                        <button 
+                            className='rounded-full bg-pink-800 p-2 px-8 text-white text-2xl'
+                            onClick={openModal}>Sign In</button>
+                    </li>
+                    
+                </ul>
+                
+            </nav>
+            
+        </div>
+    </div>
+  )
+}
+
+export default HeaderStart
