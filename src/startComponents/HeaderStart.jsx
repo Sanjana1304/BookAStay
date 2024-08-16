@@ -1,11 +1,6 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
 
 const HeaderStart = ({openModal}) => {
-    const navig = useNavigate();
-    const openSignIn = () =>{
-        navig('/auth');
-    }
   return (
     <div>
 
@@ -17,13 +12,13 @@ const HeaderStart = ({openModal}) => {
             <nav>
                 <ul className="flex space-x-8">
                     <li className='mt-2'>
-                        <a href="#" className="text-2xl  text-pink-800 hover:text-pink-400">Features</a>
+                        <p className="text-2xl  text-pink-800 hover:text-pink-400">Features</p>
                     </li>
                     <li className='mt-2'>
-                    <a href="#" className="text-2xl text-pink-800 hover:text-pink-400">About</a>
+                    <p className="text-2xl text-pink-800 hover:text-pink-400">About</p>
                     </li>
                     <li className='mt-2'>
-                        <a href="#" className="text-2xl text-pink-800   hover:text-pink-400">Services</a>
+                        <p className="text-2xl text-pink-800   hover:text-pink-400">Services</p>
                     </li>
 
                     <li>
