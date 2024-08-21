@@ -40,7 +40,7 @@ const UserDashboard = () => {
     
   return (
     <>
-    <Header/>
+    <Header home={true}/>
 
     <div className='container mx-auto mt-5 text-pink-800'>
 

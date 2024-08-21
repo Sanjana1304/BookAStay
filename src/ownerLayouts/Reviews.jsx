@@ -57,7 +57,7 @@ const Reviews = () => {
   useEffect(()=>{
     const calculateAvgStars = () => {
       if (totalReviews > 0) {
-        setavgStars(sumOfStarRates / totalReviews);
+        setavgStars(Math.floor(sumOfStarRates / totalReviews));
       }
     };
   

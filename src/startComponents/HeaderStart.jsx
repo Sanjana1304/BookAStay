@@ -12,13 +12,13 @@ const HeaderStart = ({openModal}) => {
             <nav>
                 <ul className="flex space-x-8">
                     <li className='mt-2'>
-                        <p className="text-2xl  text-pink-800 hover:text-pink-400">Features</p>
+                        <p className="text-2xl  text-pink-800 hover:text-pink-400 cursor-pointer">Features</p>
                     </li>
                     <li className='mt-2'>
-                    <p className="text-2xl text-pink-800 hover:text-pink-400">About</p>
+                    <p className="text-2xl text-pink-800 hover:text-pink-400 cursor-pointer">Testimonals</p>
                     </li>
                     <li className='mt-2'>
-                        <p className="text-2xl text-pink-800   hover:text-pink-400">Services</p>
+                        <p className="text-2xl text-pink-800   hover:text-pink-400 cursor-pointer">About</p>
                     </li>
 
                     <li>

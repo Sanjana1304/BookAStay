@@ -270,7 +270,7 @@ const Dashboard = ({data}) => {
             <h1 className="text-2xl text-gray-500 mb-3 flex"><MdHotel className='mr-3 text-3xl'/> Bookings Calendar</h1>
             <p className="border-b-2"></p>
 
-            <div className="flex justify-between overflow-y-scroll" style={{ height: 'fit-content', maxHeight: '450px' }}>
+            <div className="flex justify-between overflow-y-scroll" style={{ height: 'fit-content', maxHeight: '350px' }}>
               
               <div className='w-1/3 border  text-pink-800 p-1'>
                 <span className='text-xl font-semibold'>Arrivals</span>
